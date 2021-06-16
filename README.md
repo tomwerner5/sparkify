@@ -26,7 +26,7 @@ There are three files associated with this project, namely:
 2. Sparkify.ipynb (A Python Jupyter Notebook)
 3. run_sparkify.py
 
-The full dataset is 12GB and not provided here, but can be obtained from the S3 bucket link provided in the .py file. The run_analysis.py file was intended to be executed using an AWS EC2 instance. Details about the AWS instance can be found in the nedium [article](somelink). A smaller anaysis (performed on a mini version of the dataset) can be executed from the notebook with the data provided here.
+The full dataset is 12GB and not provided here, but can be obtained from the S3 bucket link provided in the .py file. The run_analysis.py file was intended to be executed using an AWS EMR instance. Details about the AWS instance can be found in the nedium [article](somelink). A smaller anaysis (performed on a mini version of the dataset) can be executed from the notebook with the data provided here.
 
 ## Results <a name="results"></a>
 
