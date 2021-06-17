@@ -38,6 +38,8 @@ This [article](https://towardsdatascience.com/how-to-set-up-a-cost-effective-aws
 
 My hardware setup consisted of 3 master nodes (each m5.xlarge), 3 core nodes (each m5.xlarge), and 3 task nodes (r4.2xlarge, r5.4xlarge, and r5.2xlarge). For the task and core nodes, I switched the memory to be HDD instead of SSD.
 
+The total runtime of the notebook was about 2.5 hours, but debugging and setting up the cluster properly costed me about 20hrs of compute time. I don't know how this will affect the final cost yet, but I will update here when I know so curious users may have some details about how much running an AWS model costs.
+
 ## Results <a name="results"></a>
 
 The results can viewed in detail from the Jupyter Notebooks provided in this repository or in the medium article linked [here](somelink).
