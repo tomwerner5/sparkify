@@ -12,7 +12,7 @@ A user cancellation prediction model for the fictional Sparkify streaming platfo
 
 ## Installation <a name="installation"></a>
 
-A basic installation of Python >= 3.6 is required. Besides the standard conda distribution, PySpark (and Apache Spark) will need to be installed. For a walkthrough on installing PySpark, see [here](https://www.datacamp.com/community/tutorials/installation-of-pyspark).
+A basic installation of Python >= 3.6 is required. Besides the standard conda distribution, PySpark (and Apache Spark) will need to be installed. For a walkthrough on installing PySpark, see [here](https://www.datacamp.com/community/tutorials/installation-of-pyspark). While not necessary for using with spark or the small dataset, to use run_sparkify_offline.py, you will also need to install the `tsdst` package.
 
 ## Project Motivation<a name="motivation"></a>
 
