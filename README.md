@@ -22,11 +22,13 @@ This project is an exploration of PySpark and AWS. Proficiency in either of thes
 
 There are three files associated with this project, namely:
 
-1. mini_sparkify_event_data.zip (the data file)
-2. Sparkify.ipynb (A Python Jupyter Notebook to be run locally)
-3. run_sparkify.ipynb (A Python Jupyter Notebook to be run on AWS)
+1. mini_sparkify_event_data.zip (the small, raw data file)
+2. agg_large_sparkify.zip (the aggregated values from the full dataset)
+3. Sparkify.ipynb (A Python Jupyter Notebook to be run locally)
+4. run_sparkify.ipynb (A Python Jupyter Notebook to be run on AWS)
+5. run_sparkify_offline.py (An alternative to running the model in AWS)
 
-The full dataset is 12GB and not provided here, but can be obtained from the S3 bucket link provided in the .py file. The run_analysis.ipynb file is intended to be executed using an AWS EMR/EC2 instance. A smaller anaysis (performed on a mini version of the dataset) can be executed from the Sparkify.ipynb notebook using the minified data (mini_sparkify_event_data.json).
+The full dataset is 12GB and is only provided here in aggregate form, but the full data can be obtained from the S3 bucket link provided in the .py file. The run_sparkify.ipynb file is intended to be executed using an AWS EMR/EC2 instance. A smaller anaysis (performed on a mini version of the dataset) can be executed from the Sparkify.ipynb notebook using the minified data (mini_sparkify_event_data.json).
 
 ## Some Notes on Setting up AWS
 
@@ -38,7 +40,7 @@ This [article](https://towardsdatascience.com/how-to-set-up-a-cost-effective-aws
 
 My hardware setup consisted of 3 master nodes (each m5.xlarge), 3 core nodes (each m5.xlarge), and 3 task nodes (r4.2xlarge, r5.4xlarge, and r5.2xlarge). For the task and core nodes, I switched the memory to be HDD instead of SSD.
 
-The total runtime of the notebook was about 2.5 hours, but debugging and setting up the cluster properly costed me about 20hrs of compute time. I don't know how this will affect the final cost yet, but I will update here when I know so curious users may have some details about how much running an AWS model costs.
+The total runtime of the notebook was about 2.5 hours, but debugging and setting up the cluster properly costed me about 20hrs of compute time. This ended up costing me about $30.
 
 ## Results <a name="results"></a>
 
