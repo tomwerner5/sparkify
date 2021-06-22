@@ -44,7 +44,7 @@ The total runtime of the notebook was about 2.5 hours, but debugging and setting
 
 ## Results <a name="results"></a>
 
-The results can viewed in detail from the Jupyter Notebooks provided in this repository or in the medium article linked [here](somelink).
+The results can viewed in detail from the Jupyter Notebooks provided in this repository or in the medium article linked [here](https://tomwerner5.medium.com/turndown-turnover-with-spark-ml-a-sparkify-story-76d3419a265e).
 
 ## Licensing and Acknowledgements<a name="licensing"></a>
 
