@@ -499,8 +499,8 @@ data = X_final.copy(deep=True)
 lr_estimator = LogisticRegression(penalty='elasticnet', max_iter=10000,
                                   solver='saga')
 lr_parameters = {
-        'estimator__C': [1/0.01, 1/0.1, 1/1, 1/10],
-        'estimator__l1_ratio': [0, 0.33, 0.66, 1]
+        'estimator__C': [0.000001, 0.00001, 0.0001, 0.001, 0.01, 0.1, 1, 10, 100],
+        'estimator__l1_ratio': [0, 0.25, 0.4, 0.5, 0.6, 0.75, 1]
     }
 gb_estimator = GradientBoostingClassifier(max_depth=5, min_samples_split=2)
 gb_parameters = {
